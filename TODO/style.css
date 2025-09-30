@@ -145,3 +145,23 @@ footer p {
   display: table-cell;
   vertical-align: middle;
 }
+
+.lists-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (max-width: 800px) {
+  .lists-row {
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .todo-list-col {
+    max-width: none;
+    width: 100%;
+  }
+}

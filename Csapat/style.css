@@ -44,3 +44,13 @@ button {
   padding: 8px 15px;
   cursor: pointer;
 }
+
+footer {
+  display: table;
+  width: 100%;
+}
+
+footer p {
+  display: table-cell;
+  vertical-align: middle;
+}

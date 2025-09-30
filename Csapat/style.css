@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.tag {
+  margin: 15px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  width: 250px;
+}
+
+.tag img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bemutato {
+  display: none;
+  margin-top: 10px;
+  color: #333;
+}
+
+#ora {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+#extraKep {
+  max-width: 90%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+  color: white;
+}

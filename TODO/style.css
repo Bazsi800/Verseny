@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#uj {
+  width: 250px;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+  margin: 20px auto;
+}
+
+li {
+  background: white;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kesz {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  margin-left: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+div a {
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}

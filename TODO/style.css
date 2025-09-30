@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   background: #fafafa;
   text-align: center;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -12,14 +11,14 @@ body {
   padding: 5px;
 }
 
-ul {
+main ul {
   list-style: none;
   padding: 0;
   width: 300px;
   margin: 20px auto;
 }
 
-li {
+main li {
   background: white;
   margin: 5px 0;
   padding: 8px;
@@ -34,7 +33,7 @@ li {
   color: gray;
 }
 
-button {
+main button {
   margin-left: 5px;
   background: #007bff;
   color: white;
@@ -44,11 +43,11 @@ button {
   cursor: pointer;
 }
 
-nav a{
+main a{
   text-decoration: none;
 }
 
-.navbar-nav .nav-link {
+main div a {
   border-radius: 5px;
   color: white;
   background-color: #007bff;
@@ -58,33 +57,9 @@ nav a{
   transition: background-color 0.3s;
 }
 
-.navbar-nav .nav-link:hover {
-  background-color: #0056b3;
-  color: white;
-}
-
-.navbar-nav .nav-link.active {
-  background-color: #007bff;
-  color: white;
-}
-
-.navbar-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.navbar-brand {
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-div a {
-  border-radius: 5px;
-  color: white;
-  background-color: #007bff;
-  padding: 8px 15px;
-  border-radius: 5px;
-  text-align: center;
-  transition: background-color 0.3s;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

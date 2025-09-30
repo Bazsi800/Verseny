@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background: white;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -44,9 +43,4 @@ button {
   margin: 5px;
   padding: 8px 15px;
   cursor: pointer;
-}
-
-button:hover {
-  background: #45a049;
-  color: white;
 }

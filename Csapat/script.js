@@ -16,16 +16,16 @@ function toggleBemutato(id) {
 // ---- képgaléria ----
 const kepek = [
   {
-    src: "../Képek/Extra Képek/Extra_kep1.jpg",
-    leiras: "Ez az első extra kép leírása.",
+    src: "../Képek/Extra Képek/iskola.jpg",
+    leiras: "A világegyetem legjobb iskolája.",
   },
   {
-    src: "../Képek/Extra Képek/Extra_kep2.webp",
-    leiras: "Ez a második extra kép leírása.",
+    src: "../Képek/Extra Képek/sportnap.jpg",
+    leiras: "Ez az elit sportnap az iskolában.",
   },
   {
-    src: "../Képek/Extra Képek/Extra_kep3.webp",
-    leiras: "Ez a harmadik extra kép leírása.",
+    src: "../Képek/Extra Képek/SZC.png",
+    leiras: "Ez a Ceglédi Szakképzési Centrum logója.",
   }
 ];
 let index = 0;

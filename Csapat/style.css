@@ -54,3 +54,8 @@ footer p {
   display: table-cell;
   vertical-align: middle;
 }
+
+.csapatTag {
+  width: 200px;
+  height: 100px;
+}
